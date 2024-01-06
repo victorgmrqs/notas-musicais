@@ -1,0 +1,21 @@
+site_name: Desafio NeuralMed
+repo_url: https://github.com/victorgmrqs/desafio-neuralmed
+repo_name: victorgmrqs/desafio-neuralmed
+edit_uri: /tree/main/docs
+
+theme:
+  name: material
+  language: pt-BR
+  # logo: assets/
+  # favicon: assets/
+
+markdown_extensions:
+  - attr_list
+# extra_css:
+#   - stylesheets/extra.css
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [notas_musicais]
